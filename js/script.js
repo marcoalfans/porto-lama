@@ -90,7 +90,7 @@ function hamburgerMenuPart() {
 
 // 4. banner-title first reaction-gsap
 function bannerTitle() {
-  gsap.to("h1 span.text", { duration: 3, text: "Disanjaya" });
+  gsap.to("h1 span.text", { duration: 3, text: "Marco Alfan" });
 }
 
 // 5. content1-jquery
