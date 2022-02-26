@@ -64,7 +64,7 @@ if(document.getElementsByClassName('salin')[0]) {
 // 2.1s
 function baseUrl() {
     let urlBase = document.getElementById('baseUrl');
-    urlBase.value = 'https://adisan103.github.io/disanjaya/projeck/webSpecialCard/webSpecialCard.html?' + getDataUrl;
+    urlBase.value = 'https://adisan103.github.io/disanjaya/projects/webSpecialCard/webSpecialCard.html?' + getDataUrl;
     copyUrl();
 }
 // 2.2

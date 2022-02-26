@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine Day Card</title>
+    <title>Web Special Card</title>
     <!-- font -->
-    <link rel="stylesheet" href="src/css/font.css">
+    <link rel="stylesheet" href="src/font/font.css">
     <!-- css reset from main website -->
     <link rel="stylesheet" href="src/css/reset.css">
     <!-- my css -->
     <link rel="stylesheet" href="src/css/style.css">
-    
+
 </head>
-<body>
-    <h1>Buat Kartu Ucapan Valentine kepada orang terkasih!</h1>
+
+<body class="monstserratmedium">
+    <h1>Sampaikan isi hatimu kepada orang terkasih!</h1>
     <div class="container">
         <!-- form input -->
-        <form class="form" action="https://adisan103.github.io/disanjaya/projeck/valentineDayCard/xatemp.html">
+        <form class="form" action="https://adisan103.github.io/disanjaya/projects/webSpecialCard/webSpecialCard.html">
             <!-- receiver -->
             <label for="HJkaL">Kepada : </label>
             <input type="text" name="HJkaL" id="HJkaL">
+            <!-- title -->
+            <label for="KYhi">Inti Pesan : </label>
+            <textarea name="KYhi" id="KYhi" cols="30" rows="10"></textarea>
             <!-- message -->
             <label for="MGJiK">Pesan : </label>
             <textarea name="MGJiK" id="MGJiK" cols="30" rows="10"></textarea>
@@ -35,13 +40,15 @@
             <!-- <a class="copy">Salin Link</a> -->
         </form>
         <!-- form copy -->
-        <form class="form" action="https://adisan103.github.io/disanjaya/projeck/valentineDayCard/index.html">
+        <form class="form" action="https://adisan103.github.io/disanjaya/projects/webSpecialCard/">
             <!-- receiver -->
-            <input type="text" name="HJkaL" class="receiverCopy hidden" style="margin-top:20px"  >
+            <input type="text" name="HJkaL" class="receiverCopy hidden" style="margin-top:20px">
+            <!-- title -->
+            <input type="text" name="KYhi" class="titleCopy hidden">
             <!-- message -->
-            <input type="text" name="MGJiK" class="messageCopy hidden"  >
+            <input type="text" name="MGJiK" class="messageCopy hidden">
             <!-- sender -->
-            <input type="text" name="LpOUI" class="senderCopy hidden"  >
+            <input type="text" name="LpOUI" class="senderCopy hidden">
             <!-- submit -->
             <button type="submit" id="copy" class="copy">Buat Link</button>
         </form>
@@ -55,4 +62,5 @@
     <!-- javascript -->
     <script src="src/js/script-system.js"></script>
 </body>
+
 </html>
