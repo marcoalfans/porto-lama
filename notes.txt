@@ -1,0 +1,4 @@
+ >> Buat animasi logo
+ >> Buat Icon
+ >> Simpan dan ganti warna pallete
+ >> Ganti Project2
